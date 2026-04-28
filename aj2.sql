@@ -44,7 +44,7 @@ WHERE ANO = 104;
 Select * FROM librarybooks
 where Department = 'cs';
 
---List all bookes that belong to "cs" department and are written by author "Navathe".
+--(E)List all bookes that belong to "cs" department and are written by author "Navathe".
 Select * FROM librarybooks
 where Department = 'cs' AND Author = 'NAVATHE';
 

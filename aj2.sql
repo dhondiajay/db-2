@@ -7,7 +7,7 @@ CREATE TABLE Librarybooks (
     Purchasedate DATE,
     Price NUMBER(5)
 );
--- table created 
+-- output: table created 
 
 -- 2. Create the Dependent Table with Primary and Foreign Key
 CREATE TABLE Issuedbooks (
@@ -15,7 +15,7 @@ CREATE TABLE Issuedbooks (
     Borrower VARCHAR2(50),
     FOREIGN KEY (ANO) REFERENCES Librarybooks(ANO)
 );
--- table created 
+-- output: table created 
 
 -- 3. Insert 5 records into Librarybooks 
 INSERT INTO Librarybooks VALUES (101, 'DBSC', 'NAVATHE', 'CS', '01-JAN-1999', 100);

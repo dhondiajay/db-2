@@ -21,7 +21,7 @@ CREATE TABLE Issuedbooks
 INSERT INTO Librarybooks VALUES (101, 'DBSC', 'NAVATHE', 'CS', '01-JAN-1999', 100);
 INSERT INTO Librarybooks VALUES (102, 'DM', 'Ravi', 'stats', '01-JAN-2000', 200);
 INSERT INTO Librarybooks VALUES (103, 'SI', 'Rajesh', 'stats', '01-JAN-2001', 300);
-INSERT INTO Librarybooks VALUES (104, 'SI', 'Ravesh', 'DMaths', '01-JAN-2002', 500);
+INSERT INTO Librarybooks VALUES (104, 'SI', 'Ravesh', 'Maths', '01-JAN-2002', 500);
 INSERT INTO Librarybooks VALUES (105, 'TTT', 'Nair', 'Social', '01-JAN-2003', 600);
 
 -- 4. Insert 5 records into Issuedbooks

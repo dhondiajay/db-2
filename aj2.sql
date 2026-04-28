@@ -1,6 +1,6 @@
 
-CREATE TABLE Librarybooks (
-    ANO NUMBER(5) PRIMARY KEY,
+CREATE TABLE Librarybooks 
+(    ANO NUMBER(5) PRIMARY KEY,
     Title VARCHAR2(50),
     Author VARCHAR2(50),
     Department VARCHAR2(50),
@@ -10,8 +10,8 @@ CREATE TABLE Librarybooks (
 -- output: table created 
 
 -- 2. Create the Dependent Table with Primary and Foreign Key
-CREATE TABLE Issuedbooks (
-    ANO NUMBER(5) PRIMARY KEY,
+CREATE TABLE Issuedbooks 
+(    ANO NUMBER(5) PRIMARY KEY,
     Borrower VARCHAR2(50),
     FOREIGN KEY (ANO) REFERENCES Librarybooks(ANO)
 );
